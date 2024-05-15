@@ -8,7 +8,7 @@ const TypeAnimation = () => {
 			sequence={['Nic', 2000, 'Software Developer', 2000]}
 			wrapper="span"
 			speed={20}
-			repeat={Infinity}
+			repeat={0}
 		/>
 	);
 };
