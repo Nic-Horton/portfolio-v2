@@ -35,8 +35,6 @@ export default function RootLayout({ children }) {
 					href="/favicon/safari-pinned-tab.svg"
 					color="#d5695b"
 				/>
-				<meta name="msapplication-TileColor" content="#da532c" />
-				<meta name="theme-color" content="#cd9f9f" />
 			</head>
 			<body className={inter.className}>{children}</body>
 		</html>

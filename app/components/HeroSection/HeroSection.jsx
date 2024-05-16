@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const HeroSection = () => {
 	return (
-		<section id="#hero">
+		<section id="hero">
 			<div className="grid grid-cols-1 sm:grid-cols-12">
 				<motion.div
 					initial={{ opacity: 0, scale: 0.5 }}
@@ -42,7 +42,7 @@ const HeroSection = () => {
 					transition={{ duration: 0.5 }}
 					className="col-span-5 place-self-center mt-4 lg:mt-0"
 				>
-					<div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+					<div className="rounded-full bg-[#202020] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
 						<Image
 							src={'/images/avatarIMG.png'}
 							alt="hero image"
