@@ -45,7 +45,7 @@ const Navbar = () => {
 		>
 			<div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-10 py-2">
 				<Link
-					href={'#hero'}
+					href={'/'}
 					className="text-2xl md:text-5xl text-white font-semibold"
 				>
 					<Image
