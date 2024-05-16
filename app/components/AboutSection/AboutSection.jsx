@@ -21,6 +21,7 @@ const AboutSection = () => {
 					src={'/images/aboutIMG.png'}
 					width={500}
 					height={500}
+					className="self-start md:mt-16"
 					alt="about me section image"
 				/>
 				<div className="mt-4 md:mt-0 text-left flex flex-col h-full">
