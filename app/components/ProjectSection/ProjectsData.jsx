@@ -32,9 +32,9 @@ export const PROJECTS_DATA = [
 	{
 		id: 4,
 		title: 'ShelfSync',
-		description: 'Project 4 description',
+		description: 'Coming Soon',
 		image: '/images/projects/ShelfSync.png',
-		tag: ['All', 'Mobile'],
+		tag: ['All', 'Web'],
 		gitUrl: '/',
 		previewUrl: '/',
 	},
