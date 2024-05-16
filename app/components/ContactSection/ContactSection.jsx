@@ -1,10 +1,9 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import GithubIcon from '../../../public/github-icon.svg';
-import LinkedinIcon from '../../../public/linkedin-icon.svg';
 import { EnvelopeIcon } from '@heroicons/react/24/solid';
+import GitHubSVG from '../svgs/GitHubSVG';
+import LinkedInSVG from '../svgs/LinkedInSVG';
 
-const EmailSection = () => {
+const ContactSection = () => {
 	return (
 		<section
 			id="contact"
@@ -24,17 +23,17 @@ const EmailSection = () => {
 				</p>
 				<div className="socials flex flex-row gap-2 mb-4 md:mb-0">
 					<Link href="https://github.com/Nic-Horton">
-						<Image src={GithubIcon} alt="Github Icon" />
+						<GitHubSVG className="fill-white hover:fill-secondary-400" />
 					</Link>
 					<Link href="https://www.linkedin.com/in/nicolas-horton/">
-						<Image src={LinkedinIcon} alt="Linkedin Icon" />
+						<LinkedInSVG className="fill-white hover:fill-secondary-400" />
 					</Link>
 				</div>
 			</div>
 			<div className="flex justify-center items-center">
 				<Link
 					href="mailto:nic.horton00@gmail.com"
-					className="flex justify-center items-center gap-2 text-xl font-semibold px-6 py-3 w-full md:w-2/3 rounded-full bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400 hover:text-slate-200 text-white"
+					className="flex justify-center items-center gap-2 text-xl font-semibold px-6 py-3 w-full md:w-2/3 rounded-full bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400 hover:text-slate-600 text-white"
 				>
 					<EnvelopeIcon className="h-8 w-8" />
 					Let&apos;s Chat!
@@ -44,4 +43,4 @@ const EmailSection = () => {
 	);
 };
 
-export default EmailSection;
+export default ContactSection;
