@@ -34,7 +34,7 @@ const ContactSection = () => {
 			<div className="flex justify-center items-center">
 				<Link
 					href="mailto:nic.horton00@gmail.com"
-					className="z-10 flex justify-center items-center gap-2 text-xl font-semibold px-6 py-3 w-full md:w-2/3 rounded-full bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400 hover:text-slate-600 text-white"
+					className="z-10 flex justify-center items-center gap-2 text-xl font-semibold px-6 py-3 w-full md:w-2/3 rounded-full bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400 hover:opacity-80 text-white"
 				>
 					<EnvelopeIcon className="h-8 w-8" />
 					Let&apos;s Chat!
