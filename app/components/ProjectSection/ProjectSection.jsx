@@ -67,6 +67,17 @@ const ProjectSection = () => {
 						/>
 					</motion.li>
 				))}
+				{filteredProjects.length === 0 && (
+					<li className="md:col-span-2 lg:col-start-2 lg:col-end-3 lg:col-span-3">
+						<ProjectCard
+							title={`No ${tag} Projects Yet`}
+							description={'Check back later!'}
+							imgURL={'/images/coming-soon.png'}
+							gitUrl={'#projects'}
+							previewUrl={'#projects'}
+						/>
+					</li>
+				)}
 			</ul>
 		</section>
 	);
