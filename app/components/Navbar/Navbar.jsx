@@ -4,6 +4,7 @@ import Link from 'next/link';
 import NavLink from './NavLink';
 import MenuOverlay from './MenuOverlay';
 import MenuButtons from './MenuButtons';
+import Image from 'next/image';
 
 const navLinks = [
 	{
@@ -47,7 +48,12 @@ const Navbar = () => {
 					href={'#hero'}
 					className="text-2xl md:text-5xl text-white font-semibold"
 				>
-					LOGO
+					<Image
+						src={'/images/nh-logo.png'}
+						width={70}
+						height={70}
+						alt="logo"
+					/>
 				</Link>
 				<div className="mobile-menu block md:hidden">
 					<MenuButtons navOpen={navOpen} setNavOpen={setNavOpen} />
