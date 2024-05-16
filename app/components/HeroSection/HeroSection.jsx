@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import TypeAnimation from './TypeAnimation';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const HeroSection = () => {
 	return (
@@ -26,14 +27,22 @@ const HeroSection = () => {
 						amet nobis laboriosam quisquam ducimus debitis blanditiis vero.
 					</p>
 					<div>
-						<button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400  hover:opacity-80 text-white">
-							Contact me
-						</button>
-						<button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400  text-white mt-3">
-							<span className="block bg-[#121212] hover:bg-primary-700 rounded-full px-5 py-2">
-								Download Resume
-							</span>
-						</button>
+						<Link href="#contact">
+							<button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400  hover:opacity-80 text-white">
+								Contact me
+							</button>
+						</Link>
+						<Link
+							rel="noreferrer"
+							target="_blank"
+							href="assets/NicolasHortonResume2024.pdf"
+						>
+							<button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400  text-white mt-3">
+								<span className="block bg-[#121212] hover:bg-primary-700 rounded-full px-5 py-2">
+									Download Resume
+								</span>
+							</button>
+						</Link>
 					</div>
 				</motion.div>
 				<motion.div
