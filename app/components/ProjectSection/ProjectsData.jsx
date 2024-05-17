@@ -31,11 +31,12 @@ export const PROJECTS_DATA = [
 	},
 	{
 		id: 4,
-		title: 'ShelfSync',
-		description: 'Coming Soon',
-		image: '/images/projects/ShelfSync.png',
+		title: 'ShelfMate',
+		description:
+			'ShelfMate is a pantry inventory management system designed to streamline item tracking and management. Users can easily add, edit, and delete items in their inventory.',
+		image: '/images/projects/ShelfMatePic.png',
 		tag: ['All', 'Web'],
-		gitUrl: '/',
-		previewUrl: '/',
+		gitUrl: 'https://github.com/Nic-Horton/shelfmate',
+		previewUrl: 'https://shelfmate-io.onrender.com/',
 	},
 ];
