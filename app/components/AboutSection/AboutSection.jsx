@@ -28,15 +28,13 @@ const AboutSection = () => {
 					<h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
 					<p className="text-base lg:text-lg ">
 						I am a software developer with a drive to conquer new challenges and
-						an appreciation for technology. I enjoy utilizing software
-						engineering to transform ideas into reality. My journey in
-						technology is not just a career path, it&apos;s a pursuit fueled by
-						my curiosity and desire to create meaningful impact. I&apos;m
-						excited to continue growing, learning, and pushing the boundaries of
-						what&apos;s possible in the ever-evolving world of software
-						development. I am a dog dad and consider myself a foodie. To balance
-						my love for food, I am also a fitness enthusiast, committed to
-						maintaining a healthy lifestyle.
+						an appreciation for technology. My journey in technology is not just
+						a career path, it&apos;s a pursuit fueled by my curiosity and desire
+						to create meaningful impact. I&apos;m excited to continue growing,
+						learning, and pushing the boundaries of what&apos;s possible in the
+						ever-evolving world of software development. I am a dog dad and
+						consider myself a foodie. To balance my love for food, I am also a
+						fitness enthusiast, committed to maintaining a healthy lifestyle.
 					</p>
 					<div className="flex flex-row justify-start mt-8">
 						{TAB_DATA.map((t, index) => (

@@ -23,8 +23,8 @@ const HeroSection = () => {
 						<TypeAnimation />
 					</h1>
 					<p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, eum
-						amet nobis laboriosam quisquam ducimus debitis blanditiis vero.
+						Transforming bold ideas into reality with the power of software
+						engineering.
 					</p>
 					<div>
 						<Link href="#contact">
