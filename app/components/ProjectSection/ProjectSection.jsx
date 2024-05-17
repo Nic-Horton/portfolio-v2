@@ -72,7 +72,7 @@ const ProjectSection = () => {
 						<ProjectCard
 							title={`No ${tag} Projects Yet`}
 							description={'Check back later!'}
-							imgURL={'/images/coming-soon.png'}
+							imgURL={'/images/image/coming-soon.png'}
 							gitUrl={'#projects'}
 							previewUrl={'#projects'}
 						/>

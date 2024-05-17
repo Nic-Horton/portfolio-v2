@@ -7,7 +7,7 @@ const Footer = () => {
 			<div className="container px-12 py-6 flex justify-between items-center">
 				<Link href={'/'} className="rounded-full">
 					<Image
-						src={'/images/nh-logo.png'}
+						src={'/images/image/nh-logo.png'}
 						width={50}
 						height={50}
 						alt="logo"

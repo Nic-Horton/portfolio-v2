@@ -18,7 +18,7 @@ const AboutSection = () => {
 		<section id="about" className="text-white">
 			<div className="md:grid md:grid-cols-2 gap-8 items-center pt-24 px-4 xl:gap-16 sm:pt-32 xl:px-16">
 				<Image
-					src={'/images/aboutIMG.png'}
+					src={'/images/image/aboutIMG.png'}
 					width={500}
 					height={500}
 					className="self-start md:mt-16"

@@ -50,7 +50,7 @@ const Navbar = () => {
 					className="text-2xl md:text-5xl text-white font-semibold"
 				>
 					<Image
-						src={'/images/nh-logo.png'}
+						src={'/images/image/nh-logo.png'}
 						width={70}
 						height={70}
 						alt="logo"
