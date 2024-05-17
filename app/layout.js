@@ -33,8 +33,9 @@ export default function RootLayout({ children }) {
 				<link
 					rel="mask-icon"
 					href="/favicon/safari-pinned-tab.svg"
-					color="#d5695b"
+					color="#b91c1c"
 				/>
+				<meta name="theme-color" content="#b91c1c" />
 			</head>
 			<body className={inter.className}>{children}</body>
 		</html>
