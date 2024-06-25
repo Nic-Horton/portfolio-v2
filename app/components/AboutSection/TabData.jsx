@@ -23,7 +23,10 @@ export const TAB_DATA = [
 		content: (
 			<ul className="list-disc pl-4">
 				<li>DigitalCrafts</li>
-				<li>University of Houston</li>
+				<li>
+					University of Houston <br />- BBA in MIS
+				</li>
+				{/* <li>University of Texas <br />- MS in CS</li> */}
 			</ul>
 		),
 	},
