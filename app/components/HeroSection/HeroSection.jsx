@@ -35,7 +35,7 @@ const HeroSection = () => {
 						<Link
 							rel="noreferrer"
 							target="_blank"
-							href="assets/NicolasHortonResume2024.pdf"
+							href="assets/NicolasHorton-Resume2024.pdf"
 						>
 							<button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400  text-white mt-3">
 								<span className="block bg-[#121212] hover:bg-primary-700 rounded-full px-5 py-2">

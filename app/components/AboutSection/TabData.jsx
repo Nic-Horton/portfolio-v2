@@ -22,11 +22,13 @@ export const TAB_DATA = [
 		id: 'education',
 		content: (
 			<ul className="list-disc pl-4">
-				<li>DigitalCrafts</li>
 				<li>
 					University of Houston <br />- BBA in MIS
 				</li>
-				{/* <li>University of Texas <br />- MS in CS</li> */}
+				<li>
+					University of Texas <br />- MS in CS
+				</li>
+				<li>DigitalCrafts</li>
 			</ul>
 		),
 	},
