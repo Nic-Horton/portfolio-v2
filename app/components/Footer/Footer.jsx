@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer = () => {
 	return (
-		<footer className="footer border z-10 bg-[#121212]  border-t-[#33353F] border-b-black border-l-transparent border-r-transparent text-white">
+		<footer className="footer border z-10 bg-slate-200 dark:bg-[#121212]  border-t-[#33353F] border-b-black border-l-transparent border-r-transparent text-white">
 			<div className="container px-12 py-6 flex justify-between items-center">
 				<Link href={'/'} className="rounded-full">
 					<Image

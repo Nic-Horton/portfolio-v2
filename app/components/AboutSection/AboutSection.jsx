@@ -15,7 +15,7 @@ const AboutSection = () => {
 	};
 
 	return (
-		<section id="about" className="text-white">
+		<section id="about" className="text-slate-800 dark:text-white">
 			<div className="md:grid md:grid-cols-2 gap-8 items-center pt-24 px-4 xl:gap-16 sm:pt-32 xl:px-16">
 				<Image
 					src={'/images/image/aboutMe.png'}
@@ -25,7 +25,9 @@ const AboutSection = () => {
 					alt="about me section image"
 				/>
 				<div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-					<h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+					<h2 className="text-4xl font-bold text-slate-800 dark:text-white mb-4">
+						About Me
+					</h2>
 					<p className="text-base lg:text-lg ">
 						I am a software developer with a drive to conquer new challenges and
 						an appreciation for technology. My journey in technology is not just
