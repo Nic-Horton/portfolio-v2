@@ -25,9 +25,6 @@ export const TAB_DATA = [
 				<li>
 					University of Houston <br />- BBA in MIS
 				</li>
-				<li>
-					University of Texas <br />- MS in CS
-				</li>
 				<li>DigitalCrafts</li>
 			</ul>
 		),
