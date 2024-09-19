@@ -38,7 +38,7 @@ const ProjectCard = ({
 						/>
 						<button
 							onClick={handleBackToImage}
-							className="hidden absolute group-hover:block top-4 right-4 bg-black text-white p-2 rounded-full"
+							className="hidden absolute group-hover:block top-4 right-4 bg-gray-500 hover:bg-gray-700 text-white p-2 rounded-full"
 						>
 							<XMarkIcon className="h-6 w-6" />
 						</button>
