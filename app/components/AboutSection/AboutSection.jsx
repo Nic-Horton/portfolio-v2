@@ -1,12 +1,28 @@
 'use client';
-import { useTransition, useState } from 'react';
+import { useTransition, useState, useEffect } from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
 import { TAB_DATA } from './TabData';
+import { motion } from 'framer-motion';
+
+const images = ['/images/image/AboutMePic.png', '/images/image/aboutMe.png'];
 
 const AboutSection = () => {
 	const [tab, setTab] = useState('skills');
 	const [isPending, startTransition] = useTransition();
+	const [currentImage, setCurrentImage] = useState(images[0]);
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setCurrentImage((prevImage) => {
+				const currentIndex = images.indexOf(prevImage);
+				const nextIndex = (currentIndex + 1) % images.length;
+				return images[nextIndex];
+			});
+		}, 7000); // Change image every 5 seconds
+
+		return () => clearInterval(interval); // Cleanup on component unmount
+	}, []);
 
 	const handleTabChange = (id) => {
 		startTransition(() => {
@@ -17,13 +33,20 @@ const AboutSection = () => {
 	return (
 		<section id="about" className="text-slate-800 dark:text-white">
 			<div className="md:grid md:grid-cols-2 gap-8 items-center pt-24 px-4 xl:gap-16 sm:pt-32 xl:px-16">
-				<Image
-					src={'/images/image/aboutMe.png'}
-					width={500}
-					height={500}
-					className="self-start md:mt-16"
-					alt="about me section image"
-				/>
+				<motion.div
+					className="relative h-500 w-500 self-start md:mt-16"
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ duration: 0.5 }}
+				>
+					<Image
+						src={currentImage}
+						width={500}
+						height={500}
+						className="self-start md:mt-16"
+						alt="about me section image"
+					/>
+				</motion.div>
 				<div className="mt-4 md:mt-0 text-left flex flex-col h-full">
 					<h2 className="text-4xl font-bold text-slate-800 dark:text-white mb-4">
 						About Me

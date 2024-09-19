@@ -47,7 +47,7 @@ const ProjectSection = () => {
 			</div>
 			<ul
 				ref={ref}
-				className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12"
+				className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12"
 			>
 				{filteredProjects.map((project, index) => (
 					<motion.li
@@ -63,12 +63,13 @@ const ProjectSection = () => {
 							description={project.description}
 							imgURL={project.image}
 							gitUrl={project.gitUrl}
+							videoURL={project.videoURL}
 							previewUrl={project.previewUrl}
 						/>
 					</motion.li>
 				))}
 				{filteredProjects.length === 0 && (
-					<li className="md:col-span-2 lg:col-start-2 lg:col-end-3 lg:col-span-3">
+					<li className="lg:col-span-2 xl:col-start-2 xl:col-end-3 ">
 						<ProjectCard
 							title={`No ${tag} Projects Yet`}
 							description={'Check back later!'}
