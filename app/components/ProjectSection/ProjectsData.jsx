@@ -8,6 +8,7 @@ export const PROJECTS_DATA = [
 		tag: ['All', 'Web'],
 		gitUrl: 'https://github.com/Nic-Horton/pupagram',
 		previewUrl: 'https://pupagram.vercel.app/',
+		videoURL: '',
 	},
 	{
 		id: 2,
@@ -18,6 +19,7 @@ export const PROJECTS_DATA = [
 		tag: ['All', 'Web'],
 		gitUrl: 'https://github.com/Nic-Horton/initiative-finder',
 		previewUrl: 'https://initfindr.onrender.com/',
+		videoURL: '/images/projects/InitFindrDemo-1.mov',
 	},
 	{
 		id: 3,
@@ -28,6 +30,7 @@ export const PROJECTS_DATA = [
 		tag: ['All', 'Web'],
 		gitUrl: 'https://github.com/Nic-Horton/MaraudersMemoir',
 		previewUrl: 'https://maraudersmemoir.onrender.com/',
+		videoURL: '',
 	},
 	{
 		id: 4,
@@ -38,5 +41,6 @@ export const PROJECTS_DATA = [
 		tag: ['All', 'Web'],
 		gitUrl: 'https://github.com/Nic-Horton/shelfmate',
 		previewUrl: 'https://shelfmate-io.onrender.com/',
+		videoURL: '',
 	},
 ];
