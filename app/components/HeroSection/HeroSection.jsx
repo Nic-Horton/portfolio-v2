@@ -23,24 +23,12 @@ const HeroSection = () => {
 						<TypeAnimation />
 					</h1>
 					<p className="text-slate-500 dark:text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-						Transforming bold ideas into reality with the power of software
-						engineering.
+						Transforming bold ideas into reality with the power of engineering.
 					</p>
 					<div>
 						<Link href="#contact">
 							<button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400  hover:opacity-80 text-white">
 								Contact me
-							</button>
-						</Link>
-						<Link
-							rel="noreferrer"
-							target="_blank"
-							href="assets/NicolasHorton_Resume_2024.pdf"
-						>
-							<button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-secondary-500 to-yellow-400 text-slate-800 dark:text-white mt-3">
-								<span className="block bg-slate-200 dark:bg-slate-800 hover:bg-primary-700 rounded-full px-5 py-2">
-									Download Resume
-								</span>
 							</button>
 						</Link>
 					</div>

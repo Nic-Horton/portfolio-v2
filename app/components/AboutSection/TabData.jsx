@@ -13,7 +13,9 @@ export const TAB_DATA = [
 				<li>Python</li>
 				<li>HTML</li>
 				<li>CSS</li>
-				<li>Firebase</li>
+				<li>MATLAB</li>
+				<li>KiCad</li>
+				<li>OnShape</li>
 			</ul>
 		),
 	},
@@ -23,7 +25,7 @@ export const TAB_DATA = [
 		content: (
 			<ul className="list-disc pl-4">
 				<li>
-					University of Houston <br />- BS in EE - EGD: 2028
+					University of Houston <br />- BS in EE | EGD: 2028
 				</li>
 				<li>
 					University of Houston <br />- BBA in MIS

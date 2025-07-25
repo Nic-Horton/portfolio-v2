@@ -52,15 +52,15 @@ const AboutSection = () => {
 						About Me
 					</h2>
 					<p className="text-base lg:text-lg ">
-						Since I was a child I have always had a drive to conquer new
-						challenges and an appreciation for technology. I always say it
-						started with my Lego sets. My journey in technology is not just a
-						career path, it&apos;s a pursuit fueled by my curiosity and desire
-						to create meaningful impact. I&apos;m excited to continue growing,
-						learning, and pushing the boundaries of what&apos;s possible in the
-						ever-evolving world of software development. I am a dog dad and
-						consider myself a foodie. To balance my love for food, I am also a
-						fitness enthusiast, committed to maintaining a healthy lifestyle.
+						Since I was a child, I’ve had a natural drive to conquer new
+						challenges and a deep appreciation for technology. My journey in
+						technology and engineering is not just a career path, but a passion
+						fueled by curiosity, creativity, and the desire to build impactful
+						solutions. Now pursuing a degree in Electrical Engineering, I’m
+						focused on blending hardware and software to create innovative
+						systems, from circuit design to embedded solutions. I’m excited to
+						continue growing, learning, and pushing the boundaries of
+						what&apos;s possible in the ever-evolving world of technology.
 					</p>
 					<div className="flex flex-row justify-start mt-8">
 						{TAB_DATA.map((t, index) => (
