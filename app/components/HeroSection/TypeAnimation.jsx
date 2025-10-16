@@ -9,9 +9,9 @@ const TypeAnimation = () => {
 				1300,
 				'Nic',
 				1500,
-				'Software Developer',
+				'a Software Developer',
 				1500,
-				'Electrical Engineer',
+				'an Electrical Engineer',
 				1500,
 				'Nic',
 			]}
